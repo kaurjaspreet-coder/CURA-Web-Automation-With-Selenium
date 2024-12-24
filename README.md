@@ -1,4 +1,4 @@
-# CURA-HealthCare-Automation-Testing-with-Maven
+# CURA-HealthCare-Automation-Testing
 
 This is an **Automation Testing** project for the **CURA Healthcare** application, demonstrating hands-on experience in Selenium WebDriver, TestNG, Cucumber, and Maven. The project automates the **appointment booking** process on the CURA Healthcare website, validating the features like login, facility selection, date picker, and appointment booking.
 
