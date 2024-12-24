@@ -53,30 +53,4 @@ public class Login extends BaseTest {
 		Assert.assertEquals(loginpage.loginErrorText(), errorMessage);
 	}
 	
-//	@Test(dataProvider="loginData")
-//	public void loginDataProvider( String userName, String password ) {
-//		loginpage.curaLogin(userName, password );
-//		Assert.assertEquals(loginpage.loginErrorText(), errorMessage);
-//	}
-	
-//	@DataProvider
-//	public Object[][] loginData() {
-//		Object[][]  data = new Object[4][2];
-//	
-//		data [0][0]="John voe";
-//		data [0][1]="ThisIsNotAPassword";
-//		
-//		data[1][0]="John Doe";
-//    	data[1][1]="ThisIsNotPassword";
-//    	
-//    	data[2][0]="";
-//    	data[2][1]="";
-//    	
-//    	data [3][0]="john doe";
-//    	data[3][1]="thisisnotapassword";
-//    	
-//    	return data;
-//		
-//	}
-	
 }
