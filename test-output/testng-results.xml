@@ -1,73 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-18T15:39:39 EST" name="Suite" finished-at="2024-12-18T15:39:50 EST" duration-ms="10359">
+  <suite started-at="2025-02-12T14:59:07 EST" name="Suite" finished-at="2025-02-12T14:59:12 EST" duration-ms="4784">
     <groups>
     </groups>
-    <test started-at="2024-12-18T15:39:39 EST" name="LoginTestCase" finished-at="2024-12-18T15:39:50 EST" duration-ms="10359">
-      <class name="CURAHealthCare.BookAppt.Login">
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:CURAHealthCare.BookAppt.Login@10289886]" started-at="2024-12-18T15:39:39 EST" name="launchWebsite" finished-at="2024-12-18T15:39:42 EST" duration-ms="2090" status="PASS">
+    <test started-at="2025-02-12T14:59:07 EST" name="Test" finished-at="2025-02-12T14:59:12 EST" duration-ms="4784">
+      <class name="CURAHealthCare.BookAppt.apptBooking">
+        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:CURAHealthCare.BookAppt.apptBooking@3b35a229]" started-at="2025-02-12T14:59:07 EST" name="launchWebsite" finished-at="2025-02-12T14:59:09 EST" duration-ms="2063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebsite -->
-        <test-method signature="loginFive()[pri:0, instance:CURAHealthCare.BookAppt.Login@10289886]" started-at="2024-12-18T15:39:42 EST" name="loginFive" description="verify login functionality  with null username and null password" finished-at="2024-12-18T15:39:42 EST" duration-ms="342" status="PASS">
+        <test-method signature="bookingTest()[pri:0, instance:CURAHealthCare.BookAppt.apptBooking@3b35a229]" started-at="2025-02-12T14:59:09 EST" name="bookingTest" finished-at="2025-02-12T14:59:12 EST" duration-ms="2581" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginFive -->
-        <test-method is-config="true" signature="closeBowser()[pri:0, instance:CURAHealthCare.BookAppt.Login@10289886]" started-at="2024-12-18T15:39:42 EST" name="closeBowser" finished-at="2024-12-18T15:39:42 EST" duration-ms="78" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBowser -->
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:CURAHealthCare.BookAppt.Login@10289886]" started-at="2024-12-18T15:39:42 EST" name="launchWebsite" finished-at="2024-12-18T15:39:44 EST" duration-ms="1528" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchWebsite -->
-        <test-method signature="loginFour()[pri:0, instance:CURAHealthCare.BookAppt.Login@10289886]" started-at="2024-12-18T15:39:44 EST" name="loginFour" description="verify login functionality  with valid username and invalid password" finished-at="2024-12-18T15:39:44 EST" duration-ms="376" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginFour -->
-        <test-method is-config="true" signature="closeBowser()[pri:0, instance:CURAHealthCare.BookAppt.Login@10289886]" started-at="2024-12-18T15:39:44 EST" name="closeBowser" finished-at="2024-12-18T15:39:44 EST" duration-ms="79" status="PASS">
+        </test-method> <!-- bookingTest -->
+        <test-method is-config="true" signature="closeBowser()[pri:0, instance:CURAHealthCare.BookAppt.apptBooking@3b35a229]" started-at="2025-02-12T14:59:12 EST" name="closeBowser" finished-at="2025-02-12T14:59:12 EST" duration-ms="101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBowser -->
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:CURAHealthCare.BookAppt.Login@10289886]" started-at="2024-12-18T15:39:44 EST" name="launchWebsite" finished-at="2024-12-18T15:39:45 EST" duration-ms="1472" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchWebsite -->
-        <test-method signature="loginOne()[pri:0, instance:CURAHealthCare.BookAppt.Login@10289886]" started-at="2024-12-18T15:39:45 EST" name="loginOne" description="verify login functionality  with valid username and password" finished-at="2024-12-18T15:39:46 EST" duration-ms="361" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginOne -->
-        <test-method is-config="true" signature="closeBowser()[pri:0, instance:CURAHealthCare.BookAppt.Login@10289886]" started-at="2024-12-18T15:39:46 EST" name="closeBowser" finished-at="2024-12-18T15:39:46 EST" duration-ms="80" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBowser -->
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:CURAHealthCare.BookAppt.Login@10289886]" started-at="2024-12-18T15:39:46 EST" name="launchWebsite" finished-at="2024-12-18T15:39:47 EST" duration-ms="1458" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchWebsite -->
-        <test-method signature="loginSix()[pri:0, instance:CURAHealthCare.BookAppt.Login@10289886]" started-at="2024-12-18T15:39:47 EST" name="loginSix" description="verify login functionality  with lowercase username and lowercase password" finished-at="2024-12-18T15:39:48 EST" duration-ms="392" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginSix -->
-        <test-method is-config="true" signature="closeBowser()[pri:0, instance:CURAHealthCare.BookAppt.Login@10289886]" started-at="2024-12-18T15:39:48 EST" name="closeBowser" finished-at="2024-12-18T15:39:48 EST" duration-ms="80" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBowser -->
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:CURAHealthCare.BookAppt.Login@10289886]" started-at="2024-12-18T15:39:48 EST" name="launchWebsite" finished-at="2024-12-18T15:39:49 EST" duration-ms="1496" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchWebsite -->
-        <test-method signature="loginThree()[pri:0, instance:CURAHealthCare.BookAppt.Login@10289886]" started-at="2024-12-18T15:39:49 EST" name="loginThree" description="verify login functionality  with invalid username and valid password" finished-at="2024-12-18T15:39:50 EST" duration-ms="392" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginThree -->
-        <test-method is-config="true" signature="closeBowser()[pri:0, instance:CURAHealthCare.BookAppt.Login@10289886]" started-at="2024-12-18T15:39:50 EST" name="closeBowser" finished-at="2024-12-18T15:39:50 EST" duration-ms="84" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBowser -->
-      </class> <!-- CURAHealthCare.BookAppt.Login -->
-    </test> <!-- LoginTestCase -->
+      </class> <!-- CURAHealthCare.BookAppt.apptBooking -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

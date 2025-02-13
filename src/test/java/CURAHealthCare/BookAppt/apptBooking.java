@@ -1,6 +1,7 @@
 package CURAHealthCare.BookAppt;
 
 import java.io.IOException;
+
 import java.util.List;
 
 import org.openqa.selenium.By;

@@ -1,0 +1,4 @@
+resources\Reports.class
+pageobjects\LoginPage.class
+pageobjects\BookingPage.class
+pageobjects\ConfirmationPage.class

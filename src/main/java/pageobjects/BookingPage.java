@@ -1,6 +1,7 @@
 package pageobjects;
 
 import java.text.SimpleDateFormat;
+
 import  java.util.Date;
 import java.util.List;
 import org.openqa.selenium.By;
@@ -10,6 +11,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.DataProvider;
+
+import pageobjects.ConfirmationPage;
+
 
 
 
@@ -42,6 +46,7 @@ public class BookingPage {
 			readmission.click();
 		}
 	}
+
 	
 	// selecting health care program
 	@FindBy (id="radio_program_medicaid")
