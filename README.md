@@ -16,7 +16,6 @@ This is an **Automation Testing** project for the **CURA Healthcare** applicatio
 - **TestNG**: Framework for running test cases.
 - **Maven**: Dependency management and build automation.
 - **ExtentReports**: Generates detailed, interactive HTML reports.
-- **Cucumber**: Behavior-Driven Development (BDD) for API testing.
 - **Java**: Programming language for writing test scripts.
 
 ## Prerequisites
